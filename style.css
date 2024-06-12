@@ -1,3 +1,13 @@
 button{
-    background: var(--tg-theme-button-color);
+    border: 0;
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 500ms ease;
+    background: var(--tg-theme-button-text-color);
+    color: var(--tg-theme-button-color);
 }
